@@ -13,7 +13,7 @@ end
 
 def init_files
 
-  html_files , css_files , js_files , image_files = [] , [] , [] , []
+  html_files , css_files , js_files , image_files ,font_files = [] , [] , [] , [] , []
   
   html_files.push("material.html")
   html_files.push("left-sidebar.html")
@@ -110,8 +110,10 @@ def init_files
   image_files.push("img/product2.jpg")
   image_files.push("img/product3.jpg")
   image_files.push("img/product4.jpg")
+  image_files.push("img/material.jpg")
 
-  return html_files + css_files + js_files + image_files
+
+  return html_files + css_files + js_files + image_files + font_files
 
 end
 
